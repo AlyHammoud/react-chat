@@ -1,0 +1,12 @@
+.list {
+    flex: 1;
+    flex-grow: 0;
+    flex-direction: column;
+    display: flex;
+}
+
+@media (max-width: 1217px) {
+    .list {
+        flex-direction: row;
+    }
+}
